@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
+.wraper{
+  padding-top:  3rem;
+  margin: 0 auto;
+  width: 800px;
+
+}
+.hed{
+  text-align: center;
+  /* font-family: 'Roboto', sans-serif; */
+  font-family:  'Montserrat', sans-serif;
+
+}
+
+.lion{
+      display: flex;
+      justify-content: space-between;
+      padding: 0.5rem 1rem;
+      align-items: center;
+      /* border: 1px solid black; */
+      /* margin-bottom: 0.5rem; */
+      /* border-radius: 5px; */
+      font-size: 20px;
+}
+
+input{
+  margin-right: 1rem;
+}
+button{
+  margin-left: 5px;
+  color: #fff;
+  background-color: #168f20;
+  border-color:  #168f20;
+  font-family: inherit;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s;
+}
+
+.butDetails:hover{
+      color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.butDelete:hover{
+    color: #fff;
+    background-color: #dc3545;
+    border-color: #dc3545;
+}
+
+
+li{
+  display:flex;
+  flex-direction: column;
+  list-style: none;
+  border: 1px solid black;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+
+.pPlus{
+  width: 700px;
+  margin-left: 1rem;
+  word-wrap: break-word;
+  font-size: 17px;
+}
+
+
+.done{
+  text-decoration: line-through;
+}
+
+
+.add{
+  width: 758px;
+  margin-left: 40px;
+  margin-bottom: -0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+    list-style-type: disc;
+}
+
+
+.butAdd{
+width: 170px;
+}
+
+.butAdd:hover{
+      color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+.addTitle{
+  width: 500px;
+  resize: none;
+  height: 25px;
+  font-size: 20px;
+}
+
+.addText{
+  width: 500px;
+  resize: none;
+  height: 100px;
+  font-size: 20px;
+}
